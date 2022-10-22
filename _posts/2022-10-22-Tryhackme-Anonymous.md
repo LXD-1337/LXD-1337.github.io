@@ -211,7 +211,7 @@ Hmm it's interesting ,let's confirm it existence with following command:
 
 > find / -user root -perm -u=s 2>/dev/null
 
-![PE Confirmation](/assets/img/posts/anonymous/PE Confirmation)
+![PE Confirmation](/assets/img/posts/anonymous/PE_Confirmation)
 
 
 Indeed ,there's a non-standard SUID BIT calling `env`.
