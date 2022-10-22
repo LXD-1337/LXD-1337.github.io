@@ -83,7 +83,7 @@ Host script results:
 |   NetBIOS computer name: ANONYMOUS\x00
 |   Domain name: \x00
 |   FQDN: anonymous
-|_  System time: 2021-02-15T14:13:41+00:00
+|_  System time: 2022-10-22T14:13:41+00:00
 | smb-security-mode: 
 |   account_used: guest
 |   authentication_level: user
@@ -93,7 +93,7 @@ Host script results:
 |   2.02: 
 |_    Message signing enabled but not required
 | smb2-time: 
-|   date: 2021-02-15T14:13:41
+|   date: 2022-10-22T14:13:41
 |_  start_date: N/A
 
 Read data files from: /usr/bin/../share/nmap
@@ -210,6 +210,9 @@ Now, It's time to upgrade our privileges. `I checked that if there is an any com
 Hmm it's interesting ,let's confirm it existence with following command:
 
 > find / -user root -perm -u=s 2>/dev/null
+
+![PE Confirmation](/assets/img/posts/anonymous/linpeas.png)
+
 
 Indeed ,there's a non-standard SUID BIT calling `env`.
 
