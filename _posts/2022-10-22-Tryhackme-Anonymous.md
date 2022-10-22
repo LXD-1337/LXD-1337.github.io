@@ -12,7 +12,7 @@ Hello, Today we are going to solve a machine named `Anonymous` which is linux ba
 ### Reconnaissance
 
 - Nmap scanning
-- FTP enumeration
+- FTP enumeration 
 - SMB enumeration
 
 ### Exploitation
