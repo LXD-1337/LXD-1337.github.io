@@ -23,7 +23,7 @@ timezone: America/Chicago
 
 title: LXD                          # the main title
 
-tagline: Red Teaming   # it will display as the sub-title
+tagline: Red Teaming & Offensive Security   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A blogsite where you can find ;Box walkthroughs ,Notes for OSCP and RedTeaming stuff.
