@@ -45,7 +45,7 @@ PORT    STATE SERVICE     VERSION
 21/tcp  open  ftp         vsftpd 2.0.8 or later
 | ftp-anon: Anonymous FTP login allowed (FTP code 230)
 |_drwxrwxrwx    2 111      113          4096 Jun 04  2020 scripts [NSE: writeable]
-| ftp-syst: 
+| ftp-syst:
 |   STAT: 
 | FTP server status:
 |      Connected to ::ffff:10.9.17.122
