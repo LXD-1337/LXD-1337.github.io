@@ -2,8 +2,8 @@
 title: "Tryhackme Anonymous Write-up"
 date: 2021-02-15 16.40 
 categories: [Tryhackme, Linux]
-tags: [ftp, suid, privesc]
-author: CEngover
+tags: [thm ,ftp, suid, env]
+author: LXD
 image: /assets/img/posts/anonymous/anonymous.png
 ---
 
