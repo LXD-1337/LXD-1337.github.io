@@ -7,7 +7,7 @@ author: LXD
 image: /assets/img/posts/misc/Data-Transfer.jpg
 ---
 
-
+![Data-Transfer](/assets/img/posts/misc/Data-Transfer.jpg)
 ***Python***
 - **`python3 -m http.server 80`**
 ***
