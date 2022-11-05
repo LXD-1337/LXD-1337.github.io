@@ -1,10 +1,10 @@
 ---
 title: "File_Transfer"
 date: 2022-11-05 17.04
-categories: [Tryhackme, Linux]
-tags: [thm ,ftp, suid, env]
+categories: [Miscellaneous, CTF]
+tags: [file_transfering , file_server, netcat, powershell]
 author: LXD
-image: 
+image: /assets/img/posts/misc/Data-Transfer.jpg
 ---
 
 
