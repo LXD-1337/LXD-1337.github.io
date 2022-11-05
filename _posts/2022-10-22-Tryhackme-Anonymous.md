@@ -7,6 +7,8 @@ author: LXD
 image: /assets/img/posts/anonymous/anonymous.png
 ---
 
+![Anonymous](/assets/img/posts/anonymous/anonymous.png)
+
 Hello, Today we are going to solve a machine named `Anonymous` which is linux based machine from [Tryhackme](https://tryhackme.com/). Let's the solution step by step.
 
 ### Reconnaissance
